@@ -1378,9 +1378,9 @@ textarea::placeholder
     resize:none;
 }
 
-/*BUTTON*/
+/*BUTTON SUPRISE ME AGAIN*/
 
-.suprise-btn
+.surprise-btn
 {
     padding:16px 32px;
     border:none;
@@ -1391,7 +1391,7 @@ textarea::placeholder
     transition:0.3s;
     font-size:17px;
 }
-.suprise-btn:hover
+.surprise-btn:hover
 {
     background:#2F5D50;
 }
