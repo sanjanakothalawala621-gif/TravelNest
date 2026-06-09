@@ -1299,27 +1299,31 @@ table th
 }
 
 /*FORM CARD*/
-.submit-btn {
-    display: block;
-    margin: 20px auto 0 auto;
+.submit-btn
+{
+    display:block;
+    width:200px;
+    margin:25px auto 0;
 
-    background-color: #12352e;
-    color: white;
+    background:#12352e;
+    color:white;
 
-    padding: 12px 30px;
-    border: none;
-    border-radius: 30px;
+    padding:14px 25px;
+    border:none;
+    border-radius:30px;
 
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
+    font-size:16px;
+    font-weight:400;
+    cursor:pointer;
 
-    transition: 0.3s ease;
+    transition:0.3s ease;
 }
 
-.submit-btn:hover {
-    background-color:#2F5D50;
-    color: #12352e;
+.submit-btn:hover
+{
+    background:#2F5D50;
+    color:white;
+    transform:translateY(-3px);
 }
 .support-form
 {
@@ -1375,7 +1379,7 @@ table th
     color: white;
     padding: 14px 35px;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     display: inline-block;
 }
