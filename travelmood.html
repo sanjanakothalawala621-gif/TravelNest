@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>TravelNest</title>
+    <link rel="icon" href="image/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/favicon.png"
+                alt="TravelNest Logo">
+                <h1>
+                    <span class="travel">Travel</span><span class="nest">Nest</span>
+                </h1>
+
+            </div> 
+            <div class="hamburger"
+            id="hamburger">  
+               ☰
+            </div> 
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="budgetplanner.html">Budget Planner</a></li>
+                <li><a href="tripgenerator.html">Trip Generator</a></li>
+                <li><a href="travelmood.html">Travel Mood</a></li>
+                <li><a href="support.html">Support</a></li>
+                  
+            </ul>
+        
+        </nav>   
+    </header>
+<section class="mood-hero">
+    <h1>Travel By Mood</h1>
+    <p>Set the perfect travel atmosphere,explore peaceful ambient vibes,and organize your dream destinations.</p>
+</section>
+
+<!--AMBIENT SECTION-->
+<section class="sound-section">
+    <h2>Ambient Travel Sounds</h2>
+    <div class="sound-cards">
+
+        <!--BEACH-->
+        <div class="sound-card">
+            <img src="image/entalula-beach.jpg" alt="Beach">
+            <h3>Beach Waves</h3>
+            <button id="beach-btn">Play Sound</button>
+            <audio id="beach-sound"
+            src="audio/beach.mp3"></audio>
+        </div>
+
+        <!--FOREST-->
+        <div class="sound-card">
+            <img src="image/Black-Forest.jpg" alt="Forest">
+            <h3>Forest Nature</h3>
+            <button id="forest-btn">Play Sound</button>
+            <audio id="forest-sound"
+            src="audio/forest.mp3"></audio>
+        </div>
+
+        <!--CITY-->
+        <div class="sound-card">
+            <img src="image/France.jpg" alt="France">
+            <h3>City Nights</h3>
+            <button id="city-btn">Play Sound</button>
+            <audio id="city-sound"
+            src="audio/city.mp3"></audio>
+        </div>
+    </div>
+</section>
+
+<!--DESTINATION TRACKER-->
+
+<section class="tracker-section">
+    <h2>Your Travel Tracker</h2>
+    <div class="tracker-cards">
+
+        <!--CARD-->
+        <div class="tracker-card">
+            <img src="image/burj-khalifa.jpg" alt="Burj Khalifa">
+            <h3>Burj Khalifa, Dubai</h3>
+            <p>Burj Khalifa is the world's tallest building and a famous landmark in Dubai. It offers stunning city views, luxury experiences, and unforgettable attractions for visitors.</p>
+            <div class="tracker-buttons">
+                <button class="visited-btn">
+                    Visited
+                </button>
+                <button class="planned-btn">
+                    Planned
+                </button>
+            </div>
+        </div>
+
+        <!--CARD-->
+        <div class="tracker-card">
+            <img src="image/taj-mahal.jpg" alt="Taj Mahal">
+            <h3>Taj Mahal, India</h3>
+            <p>Taj Mahal is a famous white marble monument in Agra, known as a symbol of love and beauty.</p>
+            <div class="tracker-buttons">
+                <button class="visited-btn">
+                    Visited
+                </button>
+                <button class="planned-btn">
+                    Planned
+                </button>
+            </div>
+        
+        </div>
+
+        <div class="tracker-card">
+            <img src="image/Barcelona.jpg" alt="Barcelona">
+            <h3>Barcelona, Spain</h3>
+            <p> Barcelona is a captivating Mediterranean coastal hub renowned for its unique blend of rich history, electric energy, and stunning architecture.</p>
+            <div class="tracker-buttons">
+                <button class="visited-btn">
+                    Visited
+                </button>
+                <button class="planned-btn">
+                    Planned
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-left">
+        <h2>
+             TravelNest
+        </h2>
+         <p>
+            Discover breathtaking destinations and unforgettable
+            travel experiences around the world with TravelNest.
+        </p>
+ 
+
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i>
+                Instagram
+            
+            </a>
+
+            <a href="#"><i class="fa-brands fa-facebook-f"></i>
+                Facebook 
+            </a>
+
+            <a href="#"><i class="fa-brands fa-tiktok"></i>
+                TikTok
+            </a>
+
+        </div>
+    </div>
+<div class="footer-right">
+        <h3>Site Map</h3>
+        <ul>
+            <li><a href="index.html">Home</a><li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="budgetplanner.html">Budget Planner</a></li>
+            <li><a href="tripgenerator.html">Trip Generator</a></li>
+            <li><a href="travelmood.html">Travel Mood</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+</footer>
+<div class="footer-bottom">
+    Copyright © 2026 TravelNest. All Rights Reserved.
+</div>
+<script src="js/travelmood.js"></script>
+</body>
+</html>
+
+
+
+
+

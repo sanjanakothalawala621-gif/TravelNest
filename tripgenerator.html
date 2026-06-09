@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>TravelNest</title>
+    <link rel="icon" href="image/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/favicon.png"
+                alt="TravelNest Logo">
+                <h1>
+                    <span class="travel">Travel</span><span class="nest">Nest</span>
+                </h1>
+
+            </div> 
+            <div class="hamburger"
+            id="hamburger">  
+               ☰
+            </div> 
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="budgetplanner.html">Budget Planner</a></li>
+                <li><a href="tripgenerator.html">Trip Generator</a></li>
+                <li><a href="travelmood.html">Travel Mood</a></li>
+                <li><a href="support.html">Support</a></li>
+                  
+            </ul>
+        
+        </nav>   
+    </header>
+<section class="generator-hero">
+    <h1>Discover Your Next Adventure</h1>
+    <p>
+        Let TravelNest suprise you with unforgettable destinations tailored to your travel style and budget preferences</p>
+</section>
+
+<!--MAIN GENERATOR SECTION-->
+<section class="generator-container">
+    <!--Left panel-->
+    <div class="generator-form">
+        <h2>Trip Preferences</h2>
+        <!--travel type-->
+        <label>Travel Type</label>
+        <select id="travel-type">
+            <option>Adventure</option>
+            <option>Relaxation</option>
+            <option>Cultural</option>
+            <option>Nature</option> 
+        </select>
+        <!--budget-->
+        <label>Budget Range</label>
+        <select id="budget-range">
+            <option>Low Budget</option>
+            <option>Medium Budget</option>
+            <option>Luxury Budget</option>
+        </select>
+        <!--button-->
+        <button id="generate-btn">Suprise Me Again</button>
+    </div>
+    <!--right result card-->
+    <div class="generator-result">
+       <img id="result-image"
+        src="image/gardens-by-the-bay.jpg"
+        alt="Singapore">
+        <div class="generator-content">
+            <p class="small-generator-title">
+                RANDOM DESTINATION
+            </p>
+            <h2 id="result-title">
+            Gradens by the Bay, Singapore</h2>
+            <p class="generator-text"
+            id="result-description">
+                Visit Gardens by the Bay for stunning Supertrees and beautiful indoor gardens. Best visited in the evening, with budgets starting from $20 per person.
+            </p>
+            <button class="wishlist-btn"
+            id="wishlist-btn">
+                Save To WishList
+            </button>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-left">
+        <h2>
+             T<span>r</span>a<span>v</span>e<span>l</span>N<span>e</span>s<span>t</span>
+        </h2>
+         <p>
+            Discover breathtaking destinations and unforgettable
+            travel experiences around the world with TravelNest.
+        </p>
+ 
+
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i>
+                Instagram
+            
+            </a>
+
+            <a href="#"><i class="fa-brands fa-facebook-f"></i>
+                Facebook 
+            </a>
+
+            <a href="#"><i class="fa-brands fa-tiktok"></i>
+                TikTok
+            </a>
+
+        </div>
+    </div>
+    <div class="footer-right">
+        <h3>Site Map</h3>
+        <ul>
+            <li><a href="index.html">Home</a><li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="budgetplanner.html">Budget Planner</a></li>
+            <li><a href="tripgenerator.html">Trip Generator</a></li>
+            <li><a href="travelmood.html">Travel Mood</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+</footer>
+<div class="footer-bottom">
+    Copyright © 2026 TravelNest. All Rights Reserved.
+</div>
+<script src="js/tripgenerator.js"></script>
+</body>
+</html>
+
+
