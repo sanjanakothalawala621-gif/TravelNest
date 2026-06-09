@@ -58,19 +58,19 @@ if(feedbackButton)
             let name =
             document.getElementById
             (
-                "name-input"
+                "name"
             ).value;
 
             let email =
             document.getElementById
             (
-                "email-input"
+                "contact"
             ).value;
 
             let message =
             document.getElementById
             (
-                "message-input"
+                "message"
             ).value;
 
             if
