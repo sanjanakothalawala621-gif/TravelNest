@@ -18,18 +18,29 @@ if(calculateButton)
             (
                 "destination"
             ).value;
-
             let days =
-            document.getElementById
-            (
-                "days"
-            ).value;
+            Number(document.getElementById("days").value);
 
             let dailyBudget =
-            document.getElementById
-            (
+            Number(document.getElementById("budget").value);
+                        (
                 "budget"
             ).value;
+            if
+            (
+                destination.trim() === "" ||
+                days === "" ||
+                dailyBudget === ""
+            )
+            {
+                document.getElementById("total-cost").textContent = "$0";
+                document.getElementById("budget-status").textContent =
+                "Enter trip details to calculate your budget!";
+                document.getElementById("progress-fill").style.width = "0%";
+
+                return;
+            }
+
             let totalCost =
             days * dailyBudget;
 
@@ -41,7 +52,15 @@ if(calculateButton)
             let status ="";
             let progressWidth ="";
 
-            if(totalCost < 1000)
+            if(totalCost <= 0)
+            {
+                status =
+                "Enter valid trip details";
+
+                progressWidth =
+                "0%";
+            }
+            else if(totalCost < 1000)
             {
                 status =
                 "Low Budget Travel";
@@ -54,7 +73,7 @@ if(calculateButton)
                 status =
                 "Moderate Travel Experience";
 
-                progressWidth=
+                progressWidth =
                 "60%";
             }
             else
@@ -69,13 +88,12 @@ if(calculateButton)
             (
                 "budget-status"
             ).textContent =
-
             status;
+
             document.getElementById
             (
                 "progress-fill"
             ).style.width =
-
             progressWidth;
 
             //SAVE ALL BUDGETS
