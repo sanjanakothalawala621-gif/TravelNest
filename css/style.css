@@ -1383,7 +1383,7 @@ textarea::placeholder
 /* Surprise Me Button */
 .surprise-btn
 {
-    width:auto;
+    width:140px;
     min-width:200px;
     height:55px;
 
