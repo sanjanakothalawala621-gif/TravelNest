@@ -126,17 +126,17 @@ if(feedbackButton)
             
             document.getElementById
             (
-                "name-input"
+                "name"
             ).value = "";
 
             document.getElementById
             (
-                "email-input"
+                "contact"
             ).value ="";
 
             document.getElementById
             (
-                "message-input"
+                "message"
             ).value ="";
         }
     );
