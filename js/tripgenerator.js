@@ -5,21 +5,21 @@ let destinations=
         type:"Adventure",
         budget: "Low Budget",
         text: "Yala National Park is Sri Lanka's premier wildlife destination, renowned for having one of the world's highest densities of Sri Lankan leopards. Located in the southeast, it offers a dramatic landscape of dry scrub, forests, and lagoons packed with elephants, sloth bears, and crocodiles, making it a top location for safari experiences.",
-        image:"image/Yala.jpg"
+        image:"image/yala.jpg"
     },
     {
         title:"Entalula Beach, Philippines",
         type:"Relaxation",
         budget: "Low Budget",
         text:"Entalula Beach is one of the most beautiful island destinations in the Philippines, famous for its crystal-clear turquoise waters, soft white sand, and dramatic limestone cliffs. Located near El Nido, it offers a peaceful tropical escape ideal for swimming, snorkeling, sunbathing, and unforgettable island-hopping adventures.",
-        image:"image/entalula beach.jpg"
+        image:"image/entalula-beach.jpg"
     },
     {
         title:"Black Forest, Germany",
         type:"Nature",
         budget: "Medium Budget",
         text:"Black Forest, Germany is a picturesque region in southwestern Germany known for its dense evergreen forests, charming traditional villages, and peaceful mountain landscapes. It is famous for hiking trails, cuckoo clocks, waterfalls, and fairytale-like scenery, making it a perfect destination for nature lovers, photographers, and cultural explorers seeking a calm escape.",
-        image:"image/Black Forest.jpg"
+        image:"image/Black-Forest.jpg"
     },
     {
         title:"Eiffel Tower, France",
@@ -32,7 +32,7 @@ let destinations=
         title:"Phi-phi Islands, Thailand",
         type:"Relaxation",
         budget:"Medium Budget",
-        text:"Phi Phi Islands, Thailand are a stunning tropical paradise known for their crystal-clear turquoise waters, dramatic limestone cliffs, and vibrant marine life. These islands are perfect for snorkeling, diving, beach relaxation, and island-hopping adventures, offering an unforgettable experience in one of Thailand’s most beautiful coastal destinations.",
+        text:"Phi-Phi-islands, Thailand are a stunning tropical paradise known for their crystal-clear turquoise waters, dramatic limestone cliffs, and vibrant marine life. These islands are perfect for snorkeling, diving, beach relaxation, and island-hopping adventures, offering an unforgettable experience in one of Thailand’s most beautiful coastal destinations.",
         image:"image/Phi-Phi-islands.jpg"
     },
     {
