@@ -196,7 +196,9 @@ if(destinationContainer)
             `
             <div class="destination-card">
 
-                <img src="${destination.image}">
+              <img
+                src="${destination.image}"
+                alt="${destination.name}">
 
                 <div class="card-info">
 
@@ -320,19 +322,19 @@ function displayDestinations(filteredDestinations)
             destinationContainer.innerHTML+= 
             `
             <div class="destination-card">
+                <img
+                src="${destination.image}"
+                alt="${destination.name}">
 
-            <img src="${destination.image}">
+                <div class="card-info">
+                    <h3>${destination.name}</h3>
 
-            <div class="card-info">
+                    <p>${destination.country}</p>
 
-            <h3>${destination.name}</h3>
+                    </div>
 
-            <p>${destination.country}</p>
-
-            </div>
-
-            </div>
-            `;
+                    </div>
+               `;
         }
     );
 }
