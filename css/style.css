@@ -1380,20 +1380,22 @@ textarea::placeholder
 
 /*BUTTON*/
 
-.surprise-btn
+.suprise-btn
 {
-    width: fit-content;
-    padding: 15px 30px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    
+    padding:16px 32px;
+    border:none;
+    border-radius:35px;
+    background:#1B332D;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:17px;
+}
+.suprise-btn:hover
+{
+    background:#2F5D50;
 }
 
-.surprise-btn:hover {
-    background:#2F5D50;
-    color:white;
-}
 
 /*FAQ SECTION*/
 
