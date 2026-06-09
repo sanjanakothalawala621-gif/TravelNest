@@ -23,20 +23,20 @@ if(calculateButton)
 
             let dailyBudget =
             Number(document.getElementById("budget").value);
-                        (
-                "budget"
-            ).value;
-            if
+           if
             (
                 destination.trim() === "" ||
-                days === "" ||
-                dailyBudget === ""
+                days <= 0 ||
+                dailyBudget <= 0
             )
             {
                 document.getElementById("total-cost").textContent = "$0";
+
                 document.getElementById("budget-status").textContent =
                 "Enter trip details to calculate your budget!";
-                document.getElementById("progress-fill").style.width = "0%";
+
+                document.getElementById("progress-fill").style.width =
+                "0%";
 
                 return;
             }
@@ -130,6 +130,47 @@ if(calculateButton)
 
     );
 }
+let inputs =
+document.querySelectorAll
+(
+    "#destination, #days, #budget"
+);
+
+inputs.forEach
+(
+    function(input)
+    {
+        input.addEventListener
+        (
+            "input",
+            function()
+            {
+                if
+                (
+                    document.getElementById("destination").value.trim() === "" ||
+                    document.getElementById("days").value === "" ||
+                    document.getElementById("budget").value === ""
+                )
+                {
+                    document.getElementById("total-cost").textContent = "$0";
+
+                    document.getElementById("budget-status").textContent =
+                    "Enter trip details to calculate your budget!";
+
+                    document.getElementById("progress-fill").style.width =
+                    "0%";
+                }
+            }
+        );
+    }
+);
+document.getElementById("total-cost").textContent = "$0";
+
+document.getElementById("budget-status").textContent =
+"Enter trip details to calculate your budget!";
+
+document.getElementById("progress-fill").style.width =
+"0%";
 
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("nav-menu");
