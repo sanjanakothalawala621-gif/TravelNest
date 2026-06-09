@@ -985,12 +985,12 @@ table th
 
 .generator-form button
 {
-    width:80px;
+    width:120px;
     transition:0.3s;
     margin-top:40px;
     padding:16px 32px;
     cursor:pointer;
-    font-size:18px;
+    font-size:12px;
     color:white;
     border:none;
     border-radius:35px;
