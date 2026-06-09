@@ -1352,6 +1352,12 @@ table th
 }
 
 /*INPUTS*/
+input::placeholder,
+textarea::placeholder
+{
+    color: #777;
+    opacity: 1;
+}
 
 .support-form input,
 .support-form textarea
