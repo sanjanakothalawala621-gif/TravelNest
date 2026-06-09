@@ -1299,7 +1299,28 @@ table th
 }
 
 /*FORM CARD*/
+.submit-btn {
+    display: block;
+    margin: 20px auto 0 auto;
 
+    background-color: #12352e;
+    color: white;
+
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color:#2F5D50;
+    color: #12352e;
+}
 .support-form
 {
     width:450px;
