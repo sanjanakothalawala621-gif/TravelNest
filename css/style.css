@@ -1350,21 +1350,17 @@ table th
 /*BUTTON*/
 
 .surprise-btn {
-    background-color: #12352e;
+    background: #12352e;
     color: white;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    white-space: nowrap;
-    min-width: 180px;
-    transition: 0.3s;
+    padding: 14px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .surprise-btn:hover {
-    background-color: #9dc183;
+    background:#2F5D50;
     color: #12352e;
 }
 
