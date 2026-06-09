@@ -145,21 +145,14 @@ inputs.forEach
             "input",
             function()
             {
-                if
-                (
-                    document.getElementById("destination").value.trim() === "" ||
-                    document.getElementById("days").value === "" ||
-                    document.getElementById("budget").value === ""
-                )
-                {
-                    document.getElementById("total-cost").textContent = "$0";
+                document.getElementById("total-cost").textContent =
+                "$0";
 
-                    document.getElementById("budget-status").textContent =
-                    "Enter trip details to calculate your budget!";
+                document.getElementById("budget-status").textContent =
+                "Enter trip details to calculate your budget!";
 
-                    document.getElementById("progress-fill").style.width =
-                    "0%";
-                }
+                document.getElementById("progress-fill").style.width =
+                "0%";
             }
         );
     }
