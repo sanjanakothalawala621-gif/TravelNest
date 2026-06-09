@@ -1349,22 +1349,23 @@ table th
 
 /*BUTTON*/
 
-.support-form button
-{
-    width:100%;
-    margin-top:35px;
-    border:none;
-    padding:18px;
-    border-radius:35px;
-    background:#1B332D;
-    color:white;
-    transition:0.3s;
-    cursor:pointer;
-    font-size:18px;
+.surprise-btn {
+    background-color: #12352e;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    min-width: 180px;
+    transition: 0.3s;
 }
-.support-form button:hover
-{
-    background:#2F5D50;
+
+.surprise-btn:hover {
+    background-color: #9dc183;
+    color: #12352e;
 }
 
 /*FAQ SECTION*/
