@@ -16,19 +16,19 @@ if(calculateButton)
             let destination =
             document.getElementById
             (
-                "destination-input"
+                "destination"
             ).value;
 
             let days =
             document.getElementById
             (
-                "days-input"
+                "days"
             ).value;
 
             let dailyBudget =
             document.getElementById
             (
-                "budget-input"
+                "budget"
             ).value;
             let totalCost =
             days * dailyBudget;
